@@ -77,4 +77,4 @@ jquery_smooth_scroll_ssをダウンロードし、フッターやヘッダーに
 
 ## Author
 
-[Shinji Sato](https://github.com/kunshin0518)
+[kunshin](https://github.com/kunshin0518)
