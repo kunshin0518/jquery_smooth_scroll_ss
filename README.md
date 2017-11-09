@@ -12,6 +12,8 @@ jQuery plug-in that implements simple and easy-to-use smooth scrolling.
 
 <p>It realizes smooth scrolling in the page which ignites by clicking. The value can be set finely, it is easy to use, excellent in versatility.</p>
 
+
+
 ## Requirement
 <p>このプラグインを使用するにはjQueryが必要です。
 まだjQueryをインストールされていない場合は
@@ -22,6 +24,8 @@ https://code.jquery.com/
 If you have not installed jQuery yet
 https://code.jquery.com/
 Please access to install jQuery.</p>
+
+
 ## Usage
 <p>ページ内スクロールを行うクリックイベントを与えたい要素に.smoothScroll()と記述します。</p>
 
