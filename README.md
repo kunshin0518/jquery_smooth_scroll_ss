@@ -73,7 +73,7 @@ jquery_smooth_scroll_ssをダウンロードし、フッターやヘッダーに
 
 ## Licence
 
-[MIT](https://github.com/kunshin0518/jquery_smooth_scroll_ss/LICENCE)
+[MIT](https://github.com/kunshin0518/jquery_smooth_scroll_ss/blob/master/LICENSE)
 
 ## Author
 
