@@ -6,6 +6,7 @@ jQuery plug-in that implements simple and easy-to-use smooth scrolling.
 
 
 <p>I am sorry, but I am not good at explaining in English, so there may be mistakes.</p>
+
 ### Description
 <p>クリックで発火するページ内のスムーズスクロールを実現します。値は細かく設定することができ、使いやすさ、汎用性に優れています。</p>
 
