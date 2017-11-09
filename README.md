@@ -16,7 +16,7 @@ https://code.jquery.com/
 
 ## Usage
 ページ内スクロールを行うクリックイベントを与えたい要素に.smoothScroll()と記述します。
-``` php
+``` javascript
 //例
 (function($){
 	"use strict";
@@ -27,28 +27,29 @@ https://code.jquery.com/
 この場合はクラスでtargetが与えられた要素をクリックするとページの最上部までスクロールするようになります。
 ページの上部に戻るだけの簡単なスムーズスクロールであればこれだけで実装可能です。
 またオプションを設定して動きや位置などを細かく設定することも可能です。
+<dl>
+<dt>オプション</dt>
+<dt>movementTime</dt>
+ <dd>スクロールにかける時間を設定します。</dd>
+ <dd>初期値：400</dd>
+<dt>destanation</dt>
+ <dd>スクロール先を設定します。</dd>
+ <dd>初期値："body"</dd>
+<dt>easing</dt>
+ <dd>easingを設定します。</dd>
+ <dd>初期値："linear"</dd>
+<dt>centering</dt>
+ <dd>スクロール位置をスクロール先の上部が画面中央になるように設定するかどうか。</dd>
+ <dd>初期値：false</dd>
+<dt>abjustment</dt>
+ <dd>スクロール先をずらす。ここに設定した値分スクロール位置をずらします。centeringがtrueの場合は中央からずらします。</dd>
+<dt>split</dt>
+ <dd>centeringがtrueの場合に有効なオプション。centeringにより設定される位置を調整する。abjustmentと違い同じ数字でも画面サイズによりずらす量が変わってくる。</dd>
+ <dd>例：2を設定すると画面中央、3を設定すると画面上部より画面サイズ/3した場所になる</dd>
+ <dd>初期値：2</dd>
+</dl>
 
-オプション
-movementTime
- スクロールにかける時間を設定します。
- 初期値：400
-destanation
- スクロール先を設定します。
- 初期値："body"
-easing
- easingを設定します。
- 初期値："linear"
-centering
- スクロール位置をスクロール先の上部が画面中央になるように設定するかどうか。
- 初期値：false
-abjustment
- スクロール先をずらす。ここに設定した値分スクロール位置をずらします。centeringがtrueの場合は中央からずらします。
-split
- centeringがtrueの場合に有効なオプション。centeringにより設定される位置を調整する。abjustmentと違い同じ数字でも画面サイズによりずらす量が変わってくる。
- 例：2を設定すると画面中央、3を設定すると画面上部より画面サイズ/3した場所になる
- 初期値：2
-
-``` php
+``` javascript
 //例
 (function($){
 	"use strict";
