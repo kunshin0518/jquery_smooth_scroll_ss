@@ -30,6 +30,8 @@ Please access to install jQuery.</p>
 <p>ページ内スクロールを行うクリックイベントを与えたい要素に.smoothScroll()と記述します。</p>
 
 <p>Describe .smoothScroll () on the element you want to give the click event to scroll within the page.</p>
+
+
 ``` javascript
 //例
 (function($){
