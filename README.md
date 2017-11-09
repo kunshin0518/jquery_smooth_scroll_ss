@@ -10,7 +10,9 @@
 
 ## Requirement
 このプラグインを使用するにはjQueryが必要です。
-まだjQueryをインストールされていない場合はこちらhttps://code.jquery.com/にアクセスしてjQueryをインストールしてください。
+まだjQueryをインストールされていない場合は
+https://code.jquery.com/
+にアクセスしてjQueryをインストールしてください。
 
 ## Usage
 ページ内スクロールを行うクリックイベントを与えたい要素に.smoothScroll()と記述します。
